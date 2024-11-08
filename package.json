@@ -1,0 +1,21 @@
+{
+  "name": "instaumg-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/apps.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.5",
+    "uuid": "^11.0.2"
+  }
+}
